@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.mycompany.fincare2023.app-mergeDebugResources-11:/values-sw/values-sw.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Sarween\\.gradle\\caches\\transforms-3\\3db8ba9600d6ad6489c67a3ecb16c3b8\\transformed\\core-1.6.0\\res\\values-sw\\values-sw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

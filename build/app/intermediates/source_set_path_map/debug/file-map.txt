@@ -1,0 +1,19 @@
+com.mycompany.fincare2023.app-jetified-window-java-1.0.0-beta04-0 C:\Users\Sarween\.gradle\caches\transforms-3\1a90c01dc659dff25e1bbaa9e4a2e740\transformed\jetified-window-java-1.0.0-beta04\res
+com.mycompany.fincare2023.app-core-1.6.0-1 C:\Users\Sarween\.gradle\caches\transforms-3\3db8ba9600d6ad6489c67a3ecb16c3b8\transformed\core-1.6.0\res
+com.mycompany.fincare2023.app-webkit-1.5.0-2 C:\Users\Sarween\.gradle\caches\transforms-3\564461984e69a859a0d6f163fcb8a964\transformed\webkit-1.5.0\res
+com.mycompany.fincare2023.app-jetified-annotation-experimental-1.1.0-3 C:\Users\Sarween\.gradle\caches\transforms-3\9d64b5cffe39909b770456e2fc322aba\transformed\jetified-annotation-experimental-1.1.0\res
+com.mycompany.fincare2023.app-jetified-window-1.0.0-beta04-4 C:\Users\Sarween\.gradle\caches\transforms-3\f988d71cdd862ffe8e9961ecd0f812ce\transformed\jetified-window-1.0.0-beta04\res
+com.mycompany.fincare2023.app-debug-5 C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\debug\res
+com.mycompany.fincare2023.app-main-6 C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\res
+com.mycompany.fincare2023.app-agc-7 C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\app\generated\res\agc\debug
+com.mycompany.fincare2023.app-pngs-8 C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\app\generated\res\pngs\debug
+com.mycompany.fincare2023.app-resValues-9 C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\app\generated\res\resValues\debug
+com.mycompany.fincare2023.app-rs-10 C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\app\generated\res\rs\debug
+com.mycompany.fincare2023.app-mergeDebugResources-11 C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.mycompany.fincare2023.app-mergeDebugResources-12 C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.mycompany.fincare2023.app-merged_res-13 C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\app\intermediates\merged_res\debug
+com.mycompany.fincare2023.app-packaged_res-14 C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\path_provider_android\intermediates\packaged_res\debug
+com.mycompany.fincare2023.app-packaged_res-15 C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\shared_preferences_android\intermediates\packaged_res\debug
+com.mycompany.fincare2023.app-packaged_res-16 C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\sqflite\intermediates\packaged_res\debug
+com.mycompany.fincare2023.app-packaged_res-17 C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\url_launcher_android\intermediates\packaged_res\debug
+com.mycompany.fincare2023.app-packaged_res-18 C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\webview_flutter_android\intermediates\packaged_res\debug

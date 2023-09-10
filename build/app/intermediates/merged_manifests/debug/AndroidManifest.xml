@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="fincare.huawei" android:versionCode="1" android:versionName="1.0.0">
+    
+  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33"/>
+    
+  <uses-permission android:name="android.permission.INTERNET"/>
+    
+  <application android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:icon="@mipmap/ic_launcher" android:label="Fincare2023" android:requestLegacyExternalStorage="true">
+        
+    <activity android:name="com.mycompany.fincare2023.MainActivity" android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode" android:exported="true" android:hardwareAccelerated="true" android:launchMode="singleTop" android:theme="@style/LaunchTheme" android:windowSoftInputMode="adjustResize">
+            
+      <meta-data android:name="io.flutter.embedding.android.NormalTheme" android:resource="@style/NormalTheme"/>
+            
+      <meta-data android:name="io.flutter.embedding.android.SplashScreenDrawable" android:resource="@drawable/launch_background"/>
+            
+      <intent-filter>
+                
+        <action android:name="android.intent.action.MAIN"/>
+                
+        <category android:name="android.intent.category.LAUNCHER"/>
+              
+      </intent-filter>
+            
+      <meta-data android:name="flutter_deeplinking_enabled" android:value="true"/>
+            
+      <intent-filter android:autoVerify="true">
+                
+        <action android:name="android.intent.action.VIEW"/>
+                
+        <category android:name="android.intent.category.DEFAULT"/>
+                
+        <category android:name="android.intent.category.BROWSABLE"/>
+                
+        <data android:host="fincare2023.com" android:scheme="fincare2023"/>
+              
+      </intent-filter>
+          
+    </activity>
+        
+    <meta-data android:name="flutterEmbedding" android:value="2"/>
+        
+    <activity android:name="io.flutter.plugins.urllauncher.WebViewActivity" android:exported="false" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        
+    <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        
+    <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        
+    <provider android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider" android:authorities="fincare.huawei.AGCInitializeProvider" android:exported="false"/>
+        
+    <service android:name="com.huawei.agconnect.core.ServiceDiscovery" android:exported="false"/>
+        
+    <meta-data android:name="com.huawei.hms.client.appid" android:value="appid=109162113"/>
+      
+  </application>
+  
+</manifest>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="nestedScrollViewStyle"/>
+    <attr format="enum" name="splitLayoutDirection">
+        <enum name="locale" value="0"/>
+        <enum name="ltr" value="1"/>
+        <enum name="rtl" value="2"/>
+    </attr>
+    <attr format="dimension" name="splitMinSmallestWidth"/>
+    <attr format="dimension" name="splitMinWidth"/>
+    <attr format="float" name="splitRatio"/>
+    <color name="androidx_core_ripple_material_light">#1f000000</color>
+    <color name="androidx_core_secondary_text_default_material_light">#8a000000</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
+    <dimen name="compat_button_inset_vertical_material">6dp</dimen>
+    <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
+    <dimen name="compat_button_padding_vertical_material">4dp</dimen>
+    <dimen name="compat_control_corner_material">2dp</dimen>
+    <dimen name="compat_notification_large_icon_max_height">320dp</dimen>
+    <dimen name="compat_notification_large_icon_max_width">320dp</dimen>
+    <dimen name="notification_action_icon_size">32dp</dimen>
+    <dimen name="notification_action_text_size">13sp</dimen>
+    <dimen name="notification_big_circle_margin">12dp</dimen>
+    <dimen name="notification_content_margin_start">8dp</dimen>
+    <dimen name="notification_large_icon_height">64dp</dimen>
+    <dimen name="notification_large_icon_width">64dp</dimen>
+    <dimen name="notification_main_column_padding_top">10dp</dimen>
+    <dimen name="notification_media_narrow_margin">@dimen/notification_content_margin_start</dimen>
+    <dimen name="notification_right_icon_size">16dp</dimen>
+    <dimen name="notification_right_side_padding_top">2dp</dimen>
+    <dimen name="notification_small_icon_background_padding">3dp</dimen>
+    <dimen name="notification_small_icon_size_as_large">24dp</dimen>
+    <dimen name="notification_subtext_size">13sp</dimen>
+    <dimen name="notification_top_pad">10dp</dimen>
+    <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <item name="accessibility_action_clickable_span" type="id"/>
+    <item name="accessibility_custom_action_0" type="id"/>
+    <item name="accessibility_custom_action_1" type="id"/>
+    <item name="accessibility_custom_action_10" type="id"/>
+    <item name="accessibility_custom_action_11" type="id"/>
+    <item name="accessibility_custom_action_12" type="id"/>
+    <item name="accessibility_custom_action_13" type="id"/>
+    <item name="accessibility_custom_action_14" type="id"/>
+    <item name="accessibility_custom_action_15" type="id"/>
+    <item name="accessibility_custom_action_16" type="id"/>
+    <item name="accessibility_custom_action_17" type="id"/>
+    <item name="accessibility_custom_action_18" type="id"/>
+    <item name="accessibility_custom_action_19" type="id"/>
+    <item name="accessibility_custom_action_2" type="id"/>
+    <item name="accessibility_custom_action_20" type="id"/>
+    <item name="accessibility_custom_action_21" type="id"/>
+    <item name="accessibility_custom_action_22" type="id"/>
+    <item name="accessibility_custom_action_23" type="id"/>
+    <item name="accessibility_custom_action_24" type="id"/>
+    <item name="accessibility_custom_action_25" type="id"/>
+    <item name="accessibility_custom_action_26" type="id"/>
+    <item name="accessibility_custom_action_27" type="id"/>
+    <item name="accessibility_custom_action_28" type="id"/>
+    <item name="accessibility_custom_action_29" type="id"/>
+    <item name="accessibility_custom_action_3" type="id"/>
+    <item name="accessibility_custom_action_30" type="id"/>
+    <item name="accessibility_custom_action_31" type="id"/>
+    <item name="accessibility_custom_action_4" type="id"/>
+    <item name="accessibility_custom_action_5" type="id"/>
+    <item name="accessibility_custom_action_6" type="id"/>
+    <item name="accessibility_custom_action_7" type="id"/>
+    <item name="accessibility_custom_action_8" type="id"/>
+    <item name="accessibility_custom_action_9" type="id"/>
+    <item name="androidx_window_activity_scope" type="id"/>
+    <item name="line1" type="id"/>
+    <item name="line3" type="id"/>
+    <item name="tag_accessibility_actions" type="id"/>
+    <item name="tag_accessibility_clickable_spans" type="id"/>
+    <item name="tag_accessibility_heading" type="id"/>
+    <item name="tag_accessibility_pane_title" type="id"/>
+    <item name="tag_on_apply_window_listener" type="id"/>
+    <item name="tag_on_receive_content_listener" type="id"/>
+    <item name="tag_on_receive_content_mime_types" type="id"/>
+    <item name="tag_screen_reader_focusable" type="id"/>
+    <item name="tag_state_description" type="id"/>
+    <item name="tag_transition_group" type="id"/>
+    <item name="tag_unhandled_key_event_manager" type="id"/>
+    <item name="tag_unhandled_key_listeners" type="id"/>
+    <item name="tag_window_insets_animation_callback" type="id"/>
+    <item name="text" type="id"/>
+    <item name="text2" type="id"/>
+    <item name="title" type="id"/>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="agc_02CAC09AC82718922B7A47188A3EF7CB928CA8D0EBE456FE3A763223DC25E33E" translatable="false">00146A1BB88D03CB3FEE0D33765E9849D6A1EA43302A28A1E7D93E25578B01D774BDDFFBB5001D9783E604E6F57287CA5BC9D7F6C192BF911DB5FA6D4C45D542E6</string>
+    <string name="agc_039385256A8E064A3FBA0E5DC382B8F03961789D7A12A9D0BB248FFEDD6D1470" translatable="false">0034C104179CEBF2CE796257C9F20A1DF52E12CB8156F398096EA888D697B9C2957A153FD35D295863985EB7206160EFDCD55F915E88FDAEA73567AA0EDEB474D450D6D14F25B1FB05F232B65DE20A654E</string>
+    <string name="agc_0692DAD5D21427E7CCE627E8DC1ED71FDB307EBDC4DFB3A554BC60FCCE38E034" translatable="false">0058842AB4920FA8A8459EA17318235FD9FB24C16125B0041C206B7AE5C90453C0FFF0361B2E70D8C269B2E20B1F6A39DC29B1210E66AE7A58ADE27F1F91F23397</string>
+    <string name="agc_0DC3A56C1AC03D404A409264B0AED075A38F9EB082F5057704EA33D4B5B9B9C9" translatable="false">007635EE8B265AA36C51E59774E07D6C36D60047F6B4C1893BC58B35191162603B9130AC2B4D0F3176F06C32DCC26DD95CE44CC5FC5A3DDA10DF4614EE41BC15FFD06B14EAEA9621EC1F81E99981F3434E4084AA7B9B9786AA45042985B2336688</string>
+    <string name="agc_109B7B0344C0EDE50A1F3332C0015C78281E801719F522B4F20FDF815A5BCC3F" translatable="false">00299FFD30F2F7CE66D32CAD862A44B5012F0A12FC9AAE4B3364681BA9C8C0A7A18F190F223840406C889EFD3004571A7748428EF217344F98B3121FAD842787DCAA0B0AF9D190071AF376BE91C90A4EA5D6A55EE86DD4D365BE480099895A4548</string>
+    <string name="agc_1DAF2070F644F3B6CEA88178D5DA98CE4A7A380B545F415B1A228519B1E134C8" translatable="false">00AF86E3FB4FA476B6C591AD5EFE2D6411F2882BEDE457BC67996E29E838631B4E927764B1A6006369251861001A3962D3</string>
+    <string name="agc_1F79ACBA9BD8A7666759524C3052C88689CBB5873811854517CBBE65DC268EAA" translatable="false">8885C0CFEA832861FDBBAD5C74BF4EBF</string>
+    <string name="agc_2CF9BE2236D08368B0649449A8546AA52B2038D467F630312C146F9EA821AC2E" translatable="false">00DFCA077D5AC0A04392BDC0E1F0EC6F0C0E129C8D11C38B76D51E18BF8A5B34ED</string>
+    <string name="agc_346F273384FE025F17324187A93E7E3BFB08DD081290E00F942EE066625A31DD" translatable="false">002C105C4F6D6F22729B7B13CE206594F8E69002C5BC83A7D321B1F3739A2AE2427BAD9578FD167DEA72FE0A03DE605E99</string>
+    <string name="agc_35623988AD86DCDA34F1257D6E93F34177702C6302115D897E60D38E0816CD35" translatable="false">006716AB2C932C7554AC065F44E574F478D40EB5F06ED546036C443A3043DE8088734D1A2170890F86C56A5E410B1CDEAA</string>
+    <string name="agc_3C5E7223FA10AEB1FFA081C86F85F3C23A0526877FBC6A3A77C4D36A7BA9AAB3" translatable="false">00DF6D5E4A5A745681F587E527726286AFCACDEA2CF5405311907E5489D5A11E734BCFBB9489A13E2736674B4A7E1EE7C0</string>
+    <string name="agc_3D7A0A63AA0374539D58FF4B3034CF00D2353E3A780A0F85C35566E329358934" translatable="false">00BEF9D4E8F8C2F912986381C8AE7B52A4053D839A678DC18E162D99A38460EA5BD0F54B132F711735CF6E2D4BC172160523DB996914D45635E03CD15EFEF013E14372C0551F73A85025A69BB6F5BE020D7323809AE39D8083C7972BB10ED1860B</string>
+    <string name="agc_3FC6CD8093B4922272D7E36E11F6576A13C3767B8DFE7E7C806E0B096B233E18" translatable="false">0028B7162096E27FAAEF76610CB2F22B47754255EDB0D368F64A1D82F0559EA63F0B425E3EA71708702734F6AE7CE29C22</string>
+    <string name="agc_42CFA4FE0F87541B3B3F9793F5D829BE381703BB99853CCC25D018996F251536" translatable="false">004F3C8B81C3F522F37B3DCB9D5BE5B00D040AEB433652130181F345F3380A4E8A</string>
+    <string name="agc_432BA784B7D2E3A6C73AB69659D3300DC6258E318543A10B50EA4B770C67DAB3" translatable="false">00E321837F95B141EE1041085C4A60B474D3CA9590C7DE0FE27FB20B1EB1E991CD4738CB6C6F2754E7443904466C8A7C72B0A970EE0154DAF171E720C1CF776CF9</string>
+    <string name="agc_4A1001369614B0D938752C6AB4967DE352A3ADD13CAE741A7DF78EE728F74136" translatable="false">0087510A0160F3EB8F6EBB480DCFE29D12E99B81AF9B546F5FE69E894CCF8DB720</string>
+    <string name="agc_4D79CE1E9E81D44FFC3CBFEC80D073F18409AAC96E2DAFB11951005E99B02EDB" translatable="false">00FBD48F781027EE3A4CA1202427B521B6836C30EF2336D6A3F63C0A655AE7806B1803FBF3425F221F8A7FC8A553103885</string>
+    <string name="agc_4E59F3D37D339A997CACA4A0C457DAA94A1F044555D950F1F9835B0B6F600D38" translatable="false">0063A9C9DB73E75FC91F0FEBFE4D8DC36FECB0B86EEDC25FE9AADAEFE5E6B7F7B5</string>
+    <string name="agc_52C6C717F2BEA9936D7DEDC27E412B9E7AC9A6642A6D0AEE353B2B14737100F5" translatable="false">00916ADFBC6E2561A2B72FC691D87F08948E7A42401246C170615B8A6D435DDF5E11534D32B40B9363F7645C500CCF953C</string>
+    <string name="agc_55A14C88686718883C90D427958F540EC05210E430ED915D772D8F34C350D08B" translatable="false">00D7404C8FA46A85DD75D8741E8667011D83D904FE2E23B3A15CE20EABC8A35BFA5D92B97A452CD344ECA20E50F391BC8A9DC475203E80B8E840237C7903703F5A</string>
+    <string name="agc_56BB9FCDF7DAFDC12F18BE8BF765769B14E090D615353A1FF24238CC17EF2F2F" translatable="false">0038C603678807B794DCBEB9D344BA5A5BC2A2EB67AF0A0F1FCD1E3BB21BC465877BAA2A7C2956059FC439196CC08EB296CF35DDB25AA7B37D3FC1B9645EC73B10</string>
+    <string name="agc_5B1EF301F6E8D26793B9699E972C1FE3B4563543360C2A380F9C42CED9967B7B" translatable="false">00FCCC57E2C2C0CB68FA8AA6C33C48A54FB7F277F768F31D2179D0016896A37AD6C1500EBCFE1EDDC3BDD25C47F355C4CD0B422D63477B44404CFDAF52DCAE406D87494F0EDE472B8B1BCD1BF73A777D7EDF7B973201D35A01AD72B2F260F60ABF</string>
+    <string name="agc_5B5AF298A58B98DB86A04DB0E3B1924F7EAC7A14CA781F042E5F999BD413CC9E" translatable="false">00B96E59E2C5289F941D18D363A1E0CAC7F30D09DB031543183380839183401B7B660E197C81E285D5D75AA4EFA19E1503</string>
+    <string name="agc_63F3255D837430EC4C799B2B5A8091A554A101C6FAC114907463E723AF33B544" translatable="false">00B3D42588B185C5754C2D669733CFD05E39B10C03F24895782A44F708B67D0CBAE08ACDDD135A022C59DD1B05E06187A1381FD5F13D6A622489453FD1CA8C68C33326015C2365F95F8F30ECAE6C3F3C98F2FA31CE4BBAC5A498653554354F54B83515283F72A23ACC9618D3DE928755BF22C32189E8850D2C757B0E9508D735B21632D4B015C5F31421B5BD25CD764DA6D0543E2CBAC76112941A04DE0E9D05515CF67364135C9A7F99E0333987F1E901ACC249882EB5FB15DF8901D83362C90BFE26628E603F49636570A542077D3EF9</string>
+    <string name="agc_66412D70318648FA3BDD00A3CB2E73EE439F788EBA8010232B3B145A1ADE18F4" translatable="false">001EAC85023CE2EB5D31FC7F65074B57A2ABE69D51BA38F82B10456F7176A7330B</string>
+    <string name="agc_69589FA8E5257AA8E3C477503B5586F4B4981C77F69B612318E3FC7AF1B00890" translatable="false">0012134B08F20AE457330EE26E4BDE79EFC782ECE254E3F51777ABB2F1F200CF89</string>
+    <string name="agc_6D239E4C2FF1354F6DBB62ED715B0B2A4058A2C1B368EB9F5FAF8B457ED28FA6" translatable="false">005BA0E8F4D1C84A60AFFBDB21CE6D3DAF25DA9F5119674C59994D8C611C60D8BA314ACE49E1B0D9971AA08DF452A28975731E5BE01A9126683C9F2929A2CDC46F</string>
+    <string name="agc_6DC2F1E7B3508CE97B8A34B184EAD19FADAAC83160422DE0BA2F78B0438C6A98" translatable="false">00A494B33B5AB859A7569E3423F5C1A03C547C111605B2A693E3D4869FAD428B51F2328EFAA8F401B3F2FD7A4FABA27C89</string>
+    <string name="agc_7946AE46AB6C7F8CBDCAF61B99109C7C5309E95125FEA7458FBF603EC34F79F0" translatable="false">0021006B826FD2ED9EC6B10A0FF31DF9CEF967862AC8AB8766C2EC126862217BB8</string>
+    <string name="agc_7AE336DAB422A03E8E8A5A88C60ACA96939FAAC47AFC07F2870F0CAD9FB9C952" translatable="false">00961856E7C1C78945144120A711698FD9BAC8FDAD7FE3261373435180EEBDFE2AC9DEA7C9955EE8BC9FF3E397AA78C279F8CDB4CB6DD84096B27233B0242BE650</string>
+    <string name="agc_82EF8D63B2BE36159522C21C4D086D73D713FEEEE73A9F1FAF569DFCE12A4EAD" translatable="false">007718900121203A925796D095B1929B23B0E2B8CD11AC2A63D60E7A817D25B97024813EFCE36DEE3FA20B623C70C6CA78ED3E07C1073AAE2F03481A7435E49DF5</string>
+    <string name="agc_836CE23119A6E21FA622B66B25341D1D32735FAA2839B33D60C4D59B7AD62151" translatable="false">008C4D288CAE26B828913570EC7037007CF80C03D239492E1EA06A4899B702CE51966A61C71C835640B2C7B8D9F164CED937C1A5E582E27A4A1F9850391B04A156</string>
+    <string name="agc_840FE2348B9312C51373EFB2E2F030D10C43688DDE98467C8DD63AC7DC1855AB" translatable="false">00B19496937ECE6467A3F5CC0965F9B943356ED0C5FE93B26BD447279BCAB6E88D</string>
+    <string name="agc_864E57EAF6D5DB70BE861700AFF6C17A93A9D202732BCB4048B0CDBB6EBF578F" translatable="false">001B9E2F49770B3F6B31110BE9F383FB082AEA97BAFCF7B3FB8D4E2D7CECA0A5A804935C8E6C60249DD314CB3062478EBD9EA003905EC9D73BBFD9E2CC23E99E00</string>
+    <string name="agc_8CBEB54DD45F5D2D07C517A93D2C07AC37E088876F07FDDF2D74CEFF5500AE68" translatable="false">009CE0B0D92485C0784A3F449FA05282DA3C4779CC512D8C801FA53A700BD2B4633CBBB0124752D140D6E7A6418872A1DD</string>
+    <string name="agc_8EC943399EB9730C69A7B8E4E46D24911E8F900AC2F52A3DF251327694CD8EFA" translatable="false">008596B5245A0291810B6D07ADE04D40F89B6BB97C9FC1B236D0FE042608AA826A536ED6F56E5AE3FE9B611E7DCA07C4E8E4AEC7C3EFD9B4070DA67C84491B01FE</string>
+    <string name="agc_921057513A7C8EA60A9AB168E9BE65F5A2A40F47A2725FF4CDDC8793353BD4D3" translatable="false">003BB5091F893DD300CC49D07BC7B8B7FD92BA13AC98AD37C9D1CD81C4BCE31B852F9F6755DA469619D64A310D8ECD5CB0820CD63B1283A6DDE168CC0F6E9C0D39</string>
+    <string name="agc_943F28EFD067BBA193A2BABED8B2DCC2AB346B483A7A7FFE4EEF97B6A6E8E95B" translatable="false">00DF78D70CD4EAAC7693713421501194B8F0179C5A2B4717D14E11CA3AEEE433109B39BFA3C13504EB4652C402085B9F05</string>
+    <string name="agc_9DC49C8F80976A4BBF66BAEB9E45411D48B9FF330496D999644E7835EBBC949C" translatable="false">006D2543F3BAA9C90A6C37C34FD7D2D08798C3EBAC0096018F6968E3558EC39A0E735198292FE3565F093ACC3CFFB61342871911B9E8A560427859720C165150F8</string>
+    <string name="agc_A957AA80726AF0C438189B1E3703E5FF6FE072D7AEA1E90C98FC5AD863C11F19" translatable="false">00D25BE09032ED8F81E17F801DA13BDDC33EF187607F2BFA4DCFFF23EBDDD7200C92933F5B9EA1D5023AC63478B5281CD057B0AA928377D52E9C2478CF189E9D9E</string>
+    <string name="agc_B1D468BFE76734080F76B2B7AFCD4E74561AE0CB6D3E48BC35857EFB95EA0BA0" translatable="false">0043502057AB868BED85FCD0068C63317C755218B93671756822EC98A56A4C193D68C5EBB155F054DEF0F90E2DE1AB5726</string>
+    <string name="agc_B27AF20A9C5C1AF5C9321B038A090D4201968080E00BC532C796B6B908962865" translatable="false">00D3CFFC7508958157F29EF1A35B8C5A9A29B8B54923DCF26614042C33BCEFED1C40576C388D737D1BBC73CFD3D7B8AB68CB6255B3A317216572796C1888AC8F7D</string>
+    <string name="agc_B306EDA810E24A85B9E96B29457CBA22E7AB7624F9F2D241D325EAA1B74DAB4B" translatable="false">0084A61E4D52DC0D950B36200F93A0524B34C4C0273EC3A3406439E5FB11BF31D89C806476EA32F9CCF9E732F63817F43C42297A9FEC4B4FE64C50D7364CE722365D27D9540F144DDB78131A1A8F337BCD30BB8E320A27628A17591418001D77B75A07DAFC84E914D689EAC2720B0BC0888F132894EBD6F4E91FE825EE28078CB1</string>
+    <string name="agc_B67855847386884DB0CC7F366F0BDBE5590016B80BB3F5DD82FCAB6DA71B308E" translatable="false">00300E846E1B3F76A98F682B6334BEC869C953C76D4B62C9453F36147949D3EFC6B34572D8D8EBA86F35FBECAA3DBAC6C5286FA982AE9D18EC62C4E316A27DF928</string>
+    <string name="agc_B9EAB77AB7FDFB9A9577EEAC5B15C13D00CD198883FD8D2BCF6CD048B1DB8EAC" translatable="false">8E3FA36C9EE17A12DCAC4F3DA29E48ED</string>
+    <string name="agc_BBDF9F0726A01601D4E4BF9E72773A433618FB3F7514B54A33FF474E7DAB506D" translatable="false">005EDF59733916ADF9B149D1A6355D9B125D970855235ADD448C3DB175FFAD2BF22DC760FB7B6F9012C981001E03ECADEB</string>
+    <string name="agc_BC901C8B36CDC03EBB04723478E129DF780D638FD72D54B370EA8D3B66E0F004" translatable="false">00964F6E4F73F1D2C99E38D90B5F3CD41AA2E4AB9AB432F63F9AC58312CC96EA2563B015A92CD5814155A5453E3FCC7E846009D502668A20B6E31B2C371E31B3B60CC7470EC21B35B5C3DB6C92BB27A84D2DF438FF608C5F28D09EF40AD29C2EA5</string>
+    <string name="agc_C3DED0D7C90067F30C634C6CDEFFC61344FA2694CC52ECE824A3F70C8CDFA666" translatable="false">0079578BEEEA92E092B5DB615C28278FA6D96F62D336D788D2A14677740A8F6A92D682340400A4487C4F0190586D83444E</string>
+    <string name="agc_C4330BAE8FC09BD4A959CF04DAEE8EFE115C9EDA57BA69F3289EE86FD4D9202E" translatable="false">0084D9B90FCA1FFF13E959C5F098ECDF0EC8189FD686B9C324B25ACBAF8DB00F7D140B394A678EDF14174851DF9CC4A4B96E52F69F2AE515C75BEBDD58DEB03A4C</string>
+    <string name="agc_C5B898FED8EB426373F5B7236223347292A472BFE8B3AF180298BA6A87272CB5" translatable="false">00379F4E328C37DEF2C61D9D942E3952868DDE2A9DA295D9FAC6C03B2BBF3F809F915F9239625365D95CCE8CE4234733541D756753B69DF5D9CC3F41A408355C59</string>
+    <string name="agc_C614C7C98C4CAB19398311B2C2FE838A2E7F3C715B230710A5E58E3E578F45BB" translatable="false">0099DE763807F0B8BB040887E161FB681DC3228690059D66011175671FB09C6E69</string>
+    <string name="agc_C84FA3884427F8CBBA6C61F1A49F27195E388EEB48D06EBE4BF55B847BA24A19" translatable="false">004A124DEF981A79B5987C29F13A331BDE6ADF7AA83E714A297AD97566D47CA1BE55901705E154E95E45A8B2D40B78FAB6</string>
+    <string name="agc_D96112F0F656550C8068DE16CF313478D253DDAF4E18EEE01F6D94CA6DD5013F" translatable="false">E4F64FA5811CD25D559C37828C7E3064</string>
+    <string name="agc_E0F2A5F770721323CD9E494601CD2DD641D0544D4AD53BF2F693C48164005168" translatable="false">0027DB7BF80A006D57437C59F7236E280860B49C1589EB54280A2321AF3C9BE4FAA65AEBB1671A2181ED590AC9CB3197AC3EE9A149E5B3EF0C7D3762F20132C24993D26781C10EFF02F83E765F593B4488F5D4DFF0D1AB50138E3F7040337C56EB</string>
+    <string name="agc_EB3381D0A0BF05A68A3A3BB3A0A5F32CA98503EC69D0CA217FC3A1403801B633" translatable="false">00C47A12BD92938CAEFFD7A1E3F5464FA9BE83A6260E910A8AFAF46C17F216BDD8</string>
+    <string name="agc_EE001E9D3CDF6CA23C0A5C2EBFBC2CBC03C17F2BF79DC1B5241B449FE461874D" translatable="false">00F3A1141E874371DDDF90674C810813D057E68065E4F9B6EC118D330F8B994D3DF87756BEF309B1DEBA0CB4ECDA2D7B66920950435CA865B3D5242F4C736CFFE6</string>
+    <string name="agc_F56D9E20C47154729D3F411FD73FA2BDDF0330EB0A9873ACC352CC371FC5A767" translatable="false">6969C82BC5A57A63386A427EA9262C4F</string>
+    <string name="agc_F8EBEB2E04C248348C1BA7F1864FC2965663846860E09D6B39E6EA5DE4E88862" translatable="false">00C4E6A2EA1F00788ECBC36C9B6AEFEDA8D492D7BE846D2247B0D172269D519CFA101CB1C5667818460C2E93105E5928C3BCFB71C2805515295A201957B1B0E43E</string>
+    <string name="agc_FD0DD1D94F57432D9B43A79F2E139F3DEFAF32FD2DEAB955F17285863E78F8A5" translatable="false">00206AA362A095D2BE5137F9482141913D18FBB4B1A38FD0220756B1AE17F8534D75B974405FFE3BB458739DDDAD614F26E43DE3A4855FCC2BE6257C6EE92AF205</string>
+    <string name="app_name">Fincare2023</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.Compat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/>
+    <style name="TextAppearance.Compat.Notification.Time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="Widget.Compat.NotificationActionContainer" parent=""/>
+    <style name="Widget.Compat.NotificationActionText" parent=""/>
+    <declare-styleable name="ActivityFilter">
+        
+        <attr format="string" name="activityName"/>
+        
+        <attr format="string" name="activityAction"/>
+    </declare-styleable>
+    <declare-styleable name="ActivityRule">
+        
+        <attr format="boolean" name="alwaysExpand"/>
+    </declare-styleable>
+    <declare-styleable name="Capability">
+        
+        <attr format="reference" name="queryPatterns"/>
+        
+        <attr format="boolean" name="shortcutMatchRequired"/>
+    </declare-styleable>
+    <declare-styleable name="ColorStateListItem">
+        
+        <attr name="android:color"/>
+        
+        <attr format="float" name="alpha"/>
+        <attr name="android:alpha"/>
+    </declare-styleable>
+    <declare-styleable name="FontFamily">
+        
+        <attr format="string" name="fontProviderAuthority"/>
+        
+        <attr format="string" name="fontProviderPackage"/>
+        
+        <attr format="string" name="fontProviderQuery"/>
+        
+        <attr format="reference" name="fontProviderCerts"/>
+        
+        <attr name="fontProviderFetchStrategy">
+            <!-- The blocking font fetch works as follows.
+              First, check the local cache, then if the requested font is not cached, request the
+              font from the provider and wait until it is finished.  You can change the length of
+              the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
+              default typeface will be used instead. -->
+            <enum name="blocking" value="0"/>
+            <!-- The async font fetch works as follows.
+              First, check the local cache, then if the requeted font is not cached, trigger a
+              request the font and continue with layout inflation. Once the font fetch succeeds, the
+              target text view will be refreshed with the downloaded font data. The
+              fontProviderFetchTimeout will be ignored if async loading is specified. -->
+            <enum name="async" value="1"/>
+        </attr>
+        
+        <attr format="integer" name="fontProviderFetchTimeout">
+            <!-- A special value for the timeout. In this case, the blocking font fetching will not
+              timeout and wait until a reply is received from the font provider. -->
+            <enum name="forever" value="-1"/>
+        </attr>
+        
+        <attr format="string" name="fontProviderSystemFontFamily"/>
+    </declare-styleable>
+    <declare-styleable name="FontFamilyFont">
+        
+        <attr name="fontStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+        </attr>
+        
+        <attr format="reference" name="font"/>
+        
+        <attr format="integer" name="fontWeight"/>
+        
+        <attr format="string" name="fontVariationSettings"/>
+        
+        <attr format="integer" name="ttcIndex"/>
+        
+        <attr name="android:fontStyle"/>
+        <attr name="android:font"/>
+        <attr name="android:fontWeight"/>
+        <attr name="android:fontVariationSettings"/>
+        <attr name="android:ttcIndex"/>
+    </declare-styleable>
+    <declare-styleable name="GradientColor">
+        
+        <attr name="android:startColor"/>
+        
+        <attr name="android:centerColor"/>
+        
+        <attr name="android:endColor"/>
+        
+        <attr name="android:type"/>
+
+        
+        
+        <attr name="android:gradientRadius"/>
+
+        
+        
+        <attr name="android:centerX"/>
+        
+        <attr name="android:centerY"/>
+
+        
+        
+        <attr name="android:startX"/>
+        
+        <attr name="android:startY"/>
+        
+        <attr name="android:endX"/>
+        
+        <attr name="android:endY"/>
+
+        
+        <attr name="android:tileMode"/>
+    </declare-styleable>
+    <declare-styleable name="GradientColorItem">
+        
+        <attr name="android:offset"/>
+        
+        <attr name="android:color"/>
+    </declare-styleable>
+    <declare-styleable name="SplitPairFilter">
+        
+        <attr format="string" name="primaryActivityName"/>
+        
+        <attr format="string" name="secondaryActivityName"/>
+        
+        <attr format="string" name="secondaryActivityAction"/>
+    </declare-styleable>
+    <declare-styleable name="SplitPairRule">
+        
+        <attr format="boolean" name="finishPrimaryWithSecondary"/>
+        
+        <attr format="boolean" name="finishSecondaryWithPrimary"/>
+        
+        <attr format="boolean" name="clearTop"/>
+        <attr name="splitRatio"/>
+        <attr name="splitMinWidth"/>
+        <attr name="splitMinSmallestWidth"/>
+        <attr name="splitLayoutDirection"/>
+    </declare-styleable>
+    <declare-styleable name="SplitPlaceholderRule">
+        
+        <attr format="string" name="placeholderActivityName"/>
+        <attr name="splitRatio"/>
+        <attr name="splitMinWidth"/>
+        <attr name="splitMinSmallestWidth"/>
+        <attr name="splitLayoutDirection"/>
+    </declare-styleable>
+</resources>
