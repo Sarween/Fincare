@@ -131,7 +131,7 @@ class _FinancialGraphWidgetState extends State<FinancialGraphWidget> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Container(
-                            width: 370.0,
+                            width: 330.0,
                             height: 300.0,
                             child: FlutterFlowPieChart(
                               data: FFPieChartData(

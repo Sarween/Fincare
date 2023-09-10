@@ -16,8 +16,6 @@ export '/project/parent/q_r_scan/q_r_scan_widget.dart' show QRScanWidget;
 export '/project/parent/home/home_widget.dart' show HomeWidget;
 export '/project/parent/family_verification/family_verification_widget.dart'
     show FamilyVerificationWidget;
-export '/project/parent/challenge_set/challenge_set_widget.dart'
-    show ChallengeSetWidget;
 export '/project/parent/challenge_preset/challenge_preset_widget.dart'
     show ChallengePresetWidget;
 export '/project/parent/challenge_complete/challenge_complete_widget.dart'
@@ -62,3 +60,5 @@ export '/project/children/financial_tracker_copy/financial_tracker_copy_widget.d
     show FinancialTrackerCopyWidget;
 export '/project/children/financial_graph_copy/financial_graph_copy_widget.dart'
     show FinancialGraphCopyWidget;
+export '/project/parent/challenge_set_copy/challenge_set_copy_widget.dart'
+    show ChallengeSetCopyWidget;

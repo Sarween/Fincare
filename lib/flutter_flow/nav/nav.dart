@@ -101,11 +101,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => FamilyVerificationWidget(),
         ),
         FFRoute(
-          name: 'Challenge_Set',
-          path: '/challengeSet',
-          builder: (context, params) => ChallengeSetWidget(),
-        ),
-        FFRoute(
           name: 'Challenge_Preset',
           path: '/challengePreset',
           builder: (context, params) => ChallengePresetWidget(),
@@ -223,6 +218,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'Financial_GraphCopy',
           path: '/financialGraphCopy',
           builder: (context, params) => FinancialGraphCopyWidget(),
+        ),
+        FFRoute(
+          name: 'Challenge_SetCopy',
+          path: '/challengeSetCopy',
+          builder: (context, params) => ChallengeSetCopyWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
       observers: [routeObserver],

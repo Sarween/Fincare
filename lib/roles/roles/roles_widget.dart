@@ -92,63 +92,59 @@ class _RolesWidgetState extends State<RolesWidget> {
                                 .secondaryBackground,
                             borderRadius: BorderRadius.circular(20.0),
                           ),
-                          child: Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
-                                0.0, 0.0, 0.0, 20.0),
-                            child: Column(
-                              mainAxisSize: MainAxisSize.max,
-                              children: [
-                                ClipRRect(
-                                  borderRadius: BorderRadius.circular(8.0),
-                                  child: Image.asset(
-                                    'assets/images/image_6.png',
-                                    width: 300.0,
-                                    height: 120.0,
-                                    fit: BoxFit.fill,
+                          child: Column(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              ClipRRect(
+                                borderRadius: BorderRadius.circular(8.0),
+                                child: Image.asset(
+                                  'assets/images/image_6.png',
+                                  width: 300.0,
+                                  height: 120.0,
+                                  fit: BoxFit.fill,
+                                ),
+                              ),
+                              Row(
+                                mainAxisSize: MainAxisSize.max,
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Padding(
+                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                        23.0, 0.0, 0.0, 0.0),
+                                    child: Text(
+                                      'Parent',
+                                      style: FlutterFlowTheme.of(context)
+                                          .bodyMedium
+                                          .override(
+                                            fontFamily: 'Roboto',
+                                            fontSize: 20.0,
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                    ),
                                   ),
-                                ),
-                                Row(
-                                  mainAxisSize: MainAxisSize.max,
-                                  mainAxisAlignment:
-                                      MainAxisAlignment.spaceBetween,
-                                  children: [
-                                    Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          23.0, 0.0, 0.0, 0.0),
-                                      child: Text(
-                                        'Parent',
-                                        style: FlutterFlowTheme.of(context)
-                                            .bodyMedium
-                                            .override(
-                                              fontFamily: 'Roboto',
-                                              fontSize: 20.0,
-                                              fontWeight: FontWeight.bold,
-                                            ),
+                                  Padding(
+                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                        0.0, 0.0, 10.0, 0.0),
+                                    child: FlutterFlowIconButton(
+                                      borderColor: Colors.white,
+                                      borderRadius: 20.0,
+                                      borderWidth: 1.0,
+                                      fillColor: Colors.white,
+                                      icon: Icon(
+                                        Icons.navigate_next,
+                                        color: FlutterFlowTheme.of(context)
+                                            .primaryText,
+                                        size: 24.0,
                                       ),
+                                      onPressed: () {
+                                        print('IconButton pressed ...');
+                                      },
                                     ),
-                                    Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          0.0, 0.0, 10.0, 0.0),
-                                      child: FlutterFlowIconButton(
-                                        borderColor: Colors.white,
-                                        borderRadius: 20.0,
-                                        borderWidth: 1.0,
-                                        fillColor: Colors.white,
-                                        icon: Icon(
-                                          Icons.navigate_next,
-                                          color: FlutterFlowTheme.of(context)
-                                              .primaryText,
-                                          size: 24.0,
-                                        ),
-                                        onPressed: () {
-                                          print('IconButton pressed ...');
-                                        },
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ],
-                            ),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ),
                       ),
