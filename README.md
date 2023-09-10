@@ -1,2 +1,7 @@
-# Fincare
-An app to help parent monitor their child's finance
+# Fincare2023
+
+A new Flutter project.
+
+## Getting Started
+
+FlutterFlow projects are built to run on the Flutter _stable_ release.
