@@ -40,27 +40,24 @@ class _RolesWidgetState extends State<RolesWidget> {
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: Color(0xFF483E95),
-        appBar: Opacity(
-          opacity: 0.9,
-          child: AppBar(
-            backgroundColor: Color(0xFF483E95),
-            automaticallyImplyLeading: false,
-            title: Padding(
-              padding: EdgeInsetsDirectional.fromSTEB(20.0, 0.0, 0.0, 0.0),
-              child: Text(
-                'Roles',
-                style: FlutterFlowTheme.of(context).headlineMedium.override(
-                      fontFamily: 'Roboto',
-                      color: Colors.white,
-                      fontSize: 25.0,
-                      fontWeight: FontWeight.bold,
-                    ),
-              ),
+        appBar: AppBar(
+          backgroundColor: Color(0xFF483E95),
+          automaticallyImplyLeading: false,
+          title: Padding(
+            padding: EdgeInsetsDirectional.fromSTEB(20.0, 0.0, 0.0, 0.0),
+            child: Text(
+              'Roles',
+              style: FlutterFlowTheme.of(context).headlineMedium.override(
+                    fontFamily: 'Roboto',
+                    color: Colors.white,
+                    fontSize: 25.0,
+                    fontWeight: FontWeight.bold,
+                  ),
             ),
-            actions: [],
-            centerTitle: false,
-            elevation: 0.0,
           ),
+          actions: [],
+          centerTitle: false,
+          elevation: 0.0,
         ),
         body: SafeArea(
           top: true,
