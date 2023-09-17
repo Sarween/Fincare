@@ -1,248 +1,248 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:1:1-62:12
-INJECTED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:1:1-62:12
-INJECTED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:1:1-62:12
-INJECTED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:1:1-62:12
-MERGED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:1:1-62:12
-MERGED from [:shared_preferences_android] C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:sqflite] C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:url_launcher_android] C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-16:12
-MERGED from [:path_provider_android] C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:webview_flutter_android] C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\webview_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Sarween\.gradle\caches\transforms-3\1a90c01dc659dff25e1bbaa9e4a2e740\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Sarween\.gradle\caches\transforms-3\f988d71cdd862ffe8e9961ecd0f812ce\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
-MERGED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\Sarween\.gradle\caches\transforms-3\c5d15521ad5d223c8d0c176b0595dfbc\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:2:1-21:12
-MERGED from [androidx.webkit:webkit:1.5.0] C:\Users\Sarween\.gradle\caches\transforms-3\564461984e69a859a0d6f163fcb8a964\transformed\webkit-1.5.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Sarween\.gradle\caches\transforms-3\c8ecd81fd5d7ee7ff7708348f11d70d4\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\b8724210d2864fffefff0cfde79d07ec\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\13c65727314bfa38ae0d4990a112a8c2\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\21f45a98801143983801e8e7d6e2090d\transformed\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\de0b9ac89c5bb9c9fd302755068b95db\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.6.0] C:\Users\Sarween\.gradle\caches\transforms-3\3db8ba9600d6ad6489c67a3ecb16c3b8\transformed\core-1.6.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Sarween\.gradle\caches\transforms-3\d76d7295c8dbe14f66bc47705b97c1f4\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\3f75d1f5bc5a184518c163d759ef99c7\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\ca295ccf2c25c58b30511ef710d24b8b\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\a53859fd5970624c230d1f5950fc896e\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\394388d975614d46c7f2dc613718db1a\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\73e42e116f2328e01d4549fac5a67454\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Sarween\.gradle\caches\transforms-3\ed2409031ad4934b89b863129c0f23b2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Sarween\.gradle\caches\transforms-3\bb0a70fddbaa670d6484292c38d68054\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.huawei.hmf:tasks:1.4.1.300] C:\Users\Sarween\.gradle\caches\transforms-3\2bc2441483e594396b6a6b8f034de08e\transformed\jetified-tasks-1.4.1.300\AndroidManifest.xml:2:1-10:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Sarween\.gradle\caches\transforms-3\9d64b5cffe39909b770456e2fc322aba\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:1:1-62:12
+INJECTED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:1:1-62:12
+INJECTED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:1:1-62:12
+INJECTED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:1:1-62:12
+MERGED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:1:1-62:12
+MERGED from [:shared_preferences_android] C:\Lau Pei Tong\Flutter\Project\Fincare\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:sqflite] C:\Lau Pei Tong\Flutter\Project\Fincare\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:url_launcher_android] C:\Lau Pei Tong\Flutter\Project\Fincare\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-16:12
+MERGED from [:path_provider_android] C:\Lau Pei Tong\Flutter\Project\Fincare\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:webview_flutter_android] C:\Lau Pei Tong\Flutter\Project\Fincare\build\webview_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\user\.gradle\caches\transforms-3\b1770f879ebe737472fd4fd176591cd7\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\user\.gradle\caches\transforms-3\278c22195c5664484d5623d32e15df45\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\user\.gradle\caches\transforms-3\d24782af7fb074d8c44d26a1696a016a\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.webkit:webkit:1.5.0] C:\Users\user\.gradle\caches\transforms-3\69af629fc9cacf272053d2156d5eff53\transformed\webkit-1.5.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\user\.gradle\caches\transforms-3\264cb9e86021b1c87f74b6b668b31020\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\user\.gradle\caches\transforms-3\c987f81e94567f4e51f318a71e7b6fad\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\user\.gradle\caches\transforms-3\5155339a446674ff5404bc08607b6081\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\user\.gradle\caches\transforms-3\ab3abf70937c201d9e29f1d25a5adc05\transformed\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\user\.gradle\caches\transforms-3\6629e5389ffb8e7e8f27e5240b1cbd94\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\user\.gradle\caches\transforms-3\78c3a85a463866a1df4677e521b3aae1\transformed\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\user\.gradle\caches\transforms-3\a88f9d26e74a8ce2355e5c14d01c901a\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\user\.gradle\caches\transforms-3\519adc81fa4dd4fedc47d41394005c90\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\user\.gradle\caches\transforms-3\e17a72ebd6e0e2d1398578cbf6f991e5\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\user\.gradle\caches\transforms-3\8b3ab24a6e69f041846b7f1c39031bc3\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\user\.gradle\caches\transforms-3\5d395973590c094b4bf3367347f7892e\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\user\.gradle\caches\transforms-3\52c19be5ee7a2e378463305e474f278b\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\user\.gradle\caches\transforms-3\afd09a7587c8f7056675fd86e250a3f2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\user\.gradle\caches\transforms-3\1f7937241f22b2500b2586be11017869\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.huawei.hmf:tasks:1.4.1.300] C:\Users\user\.gradle\caches\transforms-3\deda689b949ad1552ea4632acf53cfb6\transformed\jetified-tasks-1.4.1.300\AndroidManifest.xml:2:1-10:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\user\.gradle\caches\transforms-3\e5f0c955b8c27d0405ba541781809276\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:2:5-40
-		INJECTED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\debug\AndroidManifest.xml
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:2:5-40
+		INJECTED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:1:1-62:12
-		INJECTED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:1:1-62:12
+		INJECTED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\debug\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:3:5-51
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:1:1-62:12
-		INJECTED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:1:1-62:12
+		INJECTED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:4:5-66
-MERGED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:4:5-66
-MERGED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:4:5-66
+ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:4:5-66
+MERGED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:4:5-66
+MERGED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:4:5-66
 	android:name
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:7:5-61:19
-MERGED from [:url_launcher_android] C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-14:19
-MERGED from [:url_launcher_android] C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-14:19
-MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Sarween\.gradle\caches\transforms-3\f988d71cdd862ffe8e9961ecd0f812ce\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Sarween\.gradle\caches\transforms-3\f988d71cdd862ffe8e9961ecd0f812ce\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
-MERGED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\Sarween\.gradle\caches\transforms-3\c5d15521ad5d223c8d0c176b0595dfbc\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:10:5-19:19
-MERGED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\Sarween\.gradle\caches\transforms-3\c5d15521ad5d223c8d0c176b0595dfbc\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:10:5-19:19
-MERGED from [androidx.core:core:1.6.0] C:\Users\Sarween\.gradle\caches\transforms-3\3db8ba9600d6ad6489c67a3ecb16c3b8\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.6.0] C:\Users\Sarween\.gradle\caches\transforms-3\3db8ba9600d6ad6489c67a3ecb16c3b8\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Sarween\.gradle\caches\transforms-3\ed2409031ad4934b89b863129c0f23b2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Sarween\.gradle\caches\transforms-3\ed2409031ad4934b89b863129c0f23b2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:7:5-61:19
+MERGED from [:url_launcher_android] C:\Lau Pei Tong\Flutter\Project\Fincare\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-14:19
+MERGED from [:url_launcher_android] C:\Lau Pei Tong\Flutter\Project\Fincare\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-14:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\user\.gradle\caches\transforms-3\278c22195c5664484d5623d32e15df45\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\user\.gradle\caches\transforms-3\278c22195c5664484d5623d32e15df45\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\user\.gradle\caches\transforms-3\d24782af7fb074d8c44d26a1696a016a\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:10:5-19:19
+MERGED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\user\.gradle\caches\transforms-3\d24782af7fb074d8c44d26a1696a016a\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:10:5-19:19
+MERGED from [androidx.core:core:1.6.0] C:\Users\user\.gradle\caches\transforms-3\78c3a85a463866a1df4677e521b3aae1\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\user\.gradle\caches\transforms-3\78c3a85a463866a1df4677e521b3aae1\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\user\.gradle\caches\transforms-3\afd09a7587c8f7056675fd86e250a3f2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\user\.gradle\caches\transforms-3\afd09a7587c8f7056675fd86e250a3f2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:requestLegacyExternalStorage
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:11:9-52
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:11:9-52
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.6.0] C:\Users\Sarween\.gradle\caches\transforms-3\3db8ba9600d6ad6489c67a3ecb16c3b8\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.6.0] C:\Users\user\.gradle\caches\transforms-3\78c3a85a463866a1df4677e521b3aae1\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:8:9-36
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:8:9-36
 	android:icon
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:10:9-43
 	tools:replace
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:9:9-38
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:9:9-38
 activity#com.mycompany.fincare2023.MainActivity
-ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:13:9-51:20
+ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:13:9-51:20
 	android:launchMode
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:16:13-43
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:16:13-43
 	android:hardwareAccelerated
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:19:13-47
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:19:13-47
 	android:windowSoftInputMode
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:20:13-55
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:20:13-55
 	android:exported
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:15:13-36
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:15:13-36
 	android:configChanges
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:18:13-163
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:18:13-163
 	android:theme
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:17:13-47
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:17:13-47
 	android:name
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:14:13-41
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:14:13-41
 meta-data#io.flutter.embedding.android.NormalTheme
-ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:25:13-28:17
+ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:25:13-28:17
 	android:resource
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:27:15-52
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:27:15-52
 	android:name
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:26:15-70
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:26:15-70
 meta-data#io.flutter.embedding.android.SplashScreenDrawable
-ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:34:13-37:17
+ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:34:13-37:17
 	android:resource
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:36:15-61
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:36:15-61
 	android:name
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:35:15-79
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:35:15-79
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:38:13-41:29
+ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:38:13-41:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:39:17-68
+ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:39:17-68
 	android:name
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:39:25-66
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:40:17-76
+ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:40:17-76
 	android:name
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:40:27-74
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:40:27-74
 meta-data#flutter_deeplinking_enabled
-ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:43:13-90
+ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:43:13-90
 	android:value
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:43:67-87
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:43:67-87
 	android:name
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:43:24-66
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:43:24-66
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:fincare2023.com+data:scheme:fincare2023
-ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:44:13-49:29
+ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:44:13-49:29
 	android:autoVerify
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:44:28-53
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:44:28-53
 action#android.intent.action.VIEW
-ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:45:17-69
+ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:45:17-69
 	android:name
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:45:25-66
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:45:25-66
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:46:17-76
+ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:46:17-76
 	android:name
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:46:27-73
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:46:27-73
 category#android.intent.category.BROWSABLE
-ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:47:17-78
+ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:47:17-78
 	android:name
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:47:27-75
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:47:27-75
 data
-ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:48:17-85
+ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:48:17-85
 	android:host
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:48:52-82
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:48:52-82
 	android:scheme
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:48:23-51
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:48:23-51
 meta-data#flutterEmbedding
-ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:55:9-57:33
+ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:55:9-57:33
 	android:value
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:57:13-30
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:57:13-30
 	android:name
-		ADDED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml:56:13-44
+		ADDED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml:56:13-44
 uses-sdk
-INJECTED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml
-MERGED from [:shared_preferences_android] C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:shared_preferences_android] C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:sqflite] C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:sqflite] C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:url_launcher_android] C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:url_launcher_android] C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:path_provider_android] C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:path_provider_android] C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:webview_flutter_android] C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\webview_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:webview_flutter_android] C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\webview_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Sarween\.gradle\caches\transforms-3\1a90c01dc659dff25e1bbaa9e4a2e740\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Sarween\.gradle\caches\transforms-3\1a90c01dc659dff25e1bbaa9e4a2e740\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Sarween\.gradle\caches\transforms-3\f988d71cdd862ffe8e9961ecd0f812ce\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Sarween\.gradle\caches\transforms-3\f988d71cdd862ffe8e9961ecd0f812ce\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
-MERGED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\Sarween\.gradle\caches\transforms-3\c5d15521ad5d223c8d0c176b0595dfbc\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:6:5-8:41
-MERGED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\Sarween\.gradle\caches\transforms-3\c5d15521ad5d223c8d0c176b0595dfbc\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:6:5-8:41
-MERGED from [androidx.webkit:webkit:1.5.0] C:\Users\Sarween\.gradle\caches\transforms-3\564461984e69a859a0d6f163fcb8a964\transformed\webkit-1.5.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.webkit:webkit:1.5.0] C:\Users\Sarween\.gradle\caches\transforms-3\564461984e69a859a0d6f163fcb8a964\transformed\webkit-1.5.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Sarween\.gradle\caches\transforms-3\c8ecd81fd5d7ee7ff7708348f11d70d4\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Sarween\.gradle\caches\transforms-3\c8ecd81fd5d7ee7ff7708348f11d70d4\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\b8724210d2864fffefff0cfde79d07ec\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\b8724210d2864fffefff0cfde79d07ec\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\13c65727314bfa38ae0d4990a112a8c2\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\13c65727314bfa38ae0d4990a112a8c2\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\21f45a98801143983801e8e7d6e2090d\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\21f45a98801143983801e8e7d6e2090d\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\de0b9ac89c5bb9c9fd302755068b95db\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\de0b9ac89c5bb9c9fd302755068b95db\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.6.0] C:\Users\Sarween\.gradle\caches\transforms-3\3db8ba9600d6ad6489c67a3ecb16c3b8\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.6.0] C:\Users\Sarween\.gradle\caches\transforms-3\3db8ba9600d6ad6489c67a3ecb16c3b8\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Sarween\.gradle\caches\transforms-3\d76d7295c8dbe14f66bc47705b97c1f4\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Sarween\.gradle\caches\transforms-3\d76d7295c8dbe14f66bc47705b97c1f4\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\3f75d1f5bc5a184518c163d759ef99c7\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\3f75d1f5bc5a184518c163d759ef99c7\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\ca295ccf2c25c58b30511ef710d24b8b\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\ca295ccf2c25c58b30511ef710d24b8b\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\a53859fd5970624c230d1f5950fc896e\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\a53859fd5970624c230d1f5950fc896e\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\394388d975614d46c7f2dc613718db1a\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\394388d975614d46c7f2dc613718db1a\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\73e42e116f2328e01d4549fac5a67454\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Sarween\.gradle\caches\transforms-3\73e42e116f2328e01d4549fac5a67454\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Sarween\.gradle\caches\transforms-3\ed2409031ad4934b89b863129c0f23b2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Sarween\.gradle\caches\transforms-3\ed2409031ad4934b89b863129c0f23b2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Sarween\.gradle\caches\transforms-3\bb0a70fddbaa670d6484292c38d68054\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Sarween\.gradle\caches\transforms-3\bb0a70fddbaa670d6484292c38d68054\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.huawei.hmf:tasks:1.4.1.300] C:\Users\Sarween\.gradle\caches\transforms-3\2bc2441483e594396b6a6b8f034de08e\transformed\jetified-tasks-1.4.1.300\AndroidManifest.xml:6:5-8:41
-MERGED from [com.huawei.hmf:tasks:1.4.1.300] C:\Users\Sarween\.gradle\caches\transforms-3\2bc2441483e594396b6a6b8f034de08e\transformed\jetified-tasks-1.4.1.300\AndroidManifest.xml:6:5-8:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Sarween\.gradle\caches\transforms-3\9d64b5cffe39909b770456e2fc322aba\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Sarween\.gradle\caches\transforms-3\9d64b5cffe39909b770456e2fc322aba\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\debug\AndroidManifest.xml
-INJECTED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml
+MERGED from [:shared_preferences_android] C:\Lau Pei Tong\Flutter\Project\Fincare\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] C:\Lau Pei Tong\Flutter\Project\Fincare\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] C:\Lau Pei Tong\Flutter\Project\Fincare\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] C:\Lau Pei Tong\Flutter\Project\Fincare\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] C:\Lau Pei Tong\Flutter\Project\Fincare\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] C:\Lau Pei Tong\Flutter\Project\Fincare\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] C:\Lau Pei Tong\Flutter\Project\Fincare\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] C:\Lau Pei Tong\Flutter\Project\Fincare\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:webview_flutter_android] C:\Lau Pei Tong\Flutter\Project\Fincare\build\webview_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:webview_flutter_android] C:\Lau Pei Tong\Flutter\Project\Fincare\build\webview_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\user\.gradle\caches\transforms-3\b1770f879ebe737472fd4fd176591cd7\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\user\.gradle\caches\transforms-3\b1770f879ebe737472fd4fd176591cd7\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\user\.gradle\caches\transforms-3\278c22195c5664484d5623d32e15df45\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\user\.gradle\caches\transforms-3\278c22195c5664484d5623d32e15df45\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\user\.gradle\caches\transforms-3\d24782af7fb074d8c44d26a1696a016a\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\user\.gradle\caches\transforms-3\d24782af7fb074d8c44d26a1696a016a\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.webkit:webkit:1.5.0] C:\Users\user\.gradle\caches\transforms-3\69af629fc9cacf272053d2156d5eff53\transformed\webkit-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.5.0] C:\Users\user\.gradle\caches\transforms-3\69af629fc9cacf272053d2156d5eff53\transformed\webkit-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\user\.gradle\caches\transforms-3\264cb9e86021b1c87f74b6b668b31020\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\user\.gradle\caches\transforms-3\264cb9e86021b1c87f74b6b668b31020\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\user\.gradle\caches\transforms-3\c987f81e94567f4e51f318a71e7b6fad\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\user\.gradle\caches\transforms-3\c987f81e94567f4e51f318a71e7b6fad\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\user\.gradle\caches\transforms-3\5155339a446674ff5404bc08607b6081\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\user\.gradle\caches\transforms-3\5155339a446674ff5404bc08607b6081\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\user\.gradle\caches\transforms-3\ab3abf70937c201d9e29f1d25a5adc05\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\user\.gradle\caches\transforms-3\ab3abf70937c201d9e29f1d25a5adc05\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\user\.gradle\caches\transforms-3\6629e5389ffb8e7e8f27e5240b1cbd94\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\user\.gradle\caches\transforms-3\6629e5389ffb8e7e8f27e5240b1cbd94\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] C:\Users\user\.gradle\caches\transforms-3\78c3a85a463866a1df4677e521b3aae1\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\user\.gradle\caches\transforms-3\78c3a85a463866a1df4677e521b3aae1\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\user\.gradle\caches\transforms-3\a88f9d26e74a8ce2355e5c14d01c901a\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\user\.gradle\caches\transforms-3\a88f9d26e74a8ce2355e5c14d01c901a\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\user\.gradle\caches\transforms-3\519adc81fa4dd4fedc47d41394005c90\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\user\.gradle\caches\transforms-3\519adc81fa4dd4fedc47d41394005c90\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\user\.gradle\caches\transforms-3\e17a72ebd6e0e2d1398578cbf6f991e5\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\user\.gradle\caches\transforms-3\e17a72ebd6e0e2d1398578cbf6f991e5\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\user\.gradle\caches\transforms-3\8b3ab24a6e69f041846b7f1c39031bc3\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\user\.gradle\caches\transforms-3\8b3ab24a6e69f041846b7f1c39031bc3\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\user\.gradle\caches\transforms-3\5d395973590c094b4bf3367347f7892e\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\user\.gradle\caches\transforms-3\5d395973590c094b4bf3367347f7892e\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\user\.gradle\caches\transforms-3\52c19be5ee7a2e378463305e474f278b\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\user\.gradle\caches\transforms-3\52c19be5ee7a2e378463305e474f278b\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\user\.gradle\caches\transforms-3\afd09a7587c8f7056675fd86e250a3f2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\user\.gradle\caches\transforms-3\afd09a7587c8f7056675fd86e250a3f2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\user\.gradle\caches\transforms-3\1f7937241f22b2500b2586be11017869\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\user\.gradle\caches\transforms-3\1f7937241f22b2500b2586be11017869\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.huawei.hmf:tasks:1.4.1.300] C:\Users\user\.gradle\caches\transforms-3\deda689b949ad1552ea4632acf53cfb6\transformed\jetified-tasks-1.4.1.300\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.hmf:tasks:1.4.1.300] C:\Users\user\.gradle\caches\transforms-3\deda689b949ad1552ea4632acf53cfb6\transformed\jetified-tasks-1.4.1.300\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\user\.gradle\caches\transforms-3\e5f0c955b8c27d0405ba541781809276\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\user\.gradle\caches\transforms-3\e5f0c955b8c27d0405ba541781809276\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Lau Pei Tong\Flutter\Project\Fincare\android\app\src\debug\AndroidManifest.xml
 activity#io.flutter.plugins.urllauncher.WebViewActivity
-ADDED from [:url_launcher_android] C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+ADDED from [:url_launcher_android] C:\Lau Pei Tong\Flutter\Project\Fincare\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
 	android:exported
-		ADDED from [:url_launcher_android] C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+		ADDED from [:url_launcher_android] C:\Lau Pei Tong\Flutter\Project\Fincare\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
 	android:theme
-		ADDED from [:url_launcher_android] C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+		ADDED from [:url_launcher_android] C:\Lau Pei Tong\Flutter\Project\Fincare\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
 	android:name
-		ADDED from [:url_launcher_android] C:\Users\Sarween\Desktop\Hackathon\Huawei Fincare\Fincare\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+		ADDED from [:url_launcher_android] C:\Lau Pei Tong\Flutter\Project\Fincare\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
 uses-library#androidx.window.extensions
-ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Sarween\.gradle\caches\transforms-3\f988d71cdd862ffe8e9961ecd0f812ce\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\user\.gradle\caches\transforms-3\278c22195c5664484d5623d32e15df45\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
 	android:required
-		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Sarween\.gradle\caches\transforms-3\f988d71cdd862ffe8e9961ecd0f812ce\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\user\.gradle\caches\transforms-3\278c22195c5664484d5623d32e15df45\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Sarween\.gradle\caches\transforms-3\f988d71cdd862ffe8e9961ecd0f812ce\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\user\.gradle\caches\transforms-3\278c22195c5664484d5623d32e15df45\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
 uses-library#androidx.window.sidecar
-ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Sarween\.gradle\caches\transforms-3\f988d71cdd862ffe8e9961ecd0f812ce\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\user\.gradle\caches\transforms-3\278c22195c5664484d5623d32e15df45\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
 	android:required
-		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Sarween\.gradle\caches\transforms-3\f988d71cdd862ffe8e9961ecd0f812ce\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\user\.gradle\caches\transforms-3\278c22195c5664484d5623d32e15df45\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Sarween\.gradle\caches\transforms-3\f988d71cdd862ffe8e9961ecd0f812ce\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\user\.gradle\caches\transforms-3\278c22195c5664484d5623d32e15df45\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
 provider#com.huawei.agconnect.core.provider.AGConnectInitializeProvider
-ADDED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\Sarween\.gradle\caches\transforms-3\c5d15521ad5d223c8d0c176b0595dfbc\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:11:9-14:40
+ADDED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\user\.gradle\caches\transforms-3\d24782af7fb074d8c44d26a1696a016a\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:11:9-14:40
 	android:authorities
-		ADDED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\Sarween\.gradle\caches\transforms-3\c5d15521ad5d223c8d0c176b0595dfbc\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:13:13-73
+		ADDED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\user\.gradle\caches\transforms-3\d24782af7fb074d8c44d26a1696a016a\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:13:13-73
 	android:exported
-		ADDED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\Sarween\.gradle\caches\transforms-3\c5d15521ad5d223c8d0c176b0595dfbc\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:14:13-37
+		ADDED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\user\.gradle\caches\transforms-3\d24782af7fb074d8c44d26a1696a016a\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:14:13-37
 	android:name
-		ADDED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\Sarween\.gradle\caches\transforms-3\c5d15521ad5d223c8d0c176b0595dfbc\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:12:13-90
+		ADDED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\user\.gradle\caches\transforms-3\d24782af7fb074d8c44d26a1696a016a\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:12:13-90
 service#com.huawei.agconnect.core.ServiceDiscovery
-ADDED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\Sarween\.gradle\caches\transforms-3\c5d15521ad5d223c8d0c176b0595dfbc\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:16:9-18:40
+ADDED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\user\.gradle\caches\transforms-3\d24782af7fb074d8c44d26a1696a016a\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:16:9-18:40
 	android:exported
-		ADDED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\Sarween\.gradle\caches\transforms-3\c5d15521ad5d223c8d0c176b0595dfbc\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:18:13-37
+		ADDED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\user\.gradle\caches\transforms-3\d24782af7fb074d8c44d26a1696a016a\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:18:13-37
 	android:name
-		ADDED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\Sarween\.gradle\caches\transforms-3\c5d15521ad5d223c8d0c176b0595dfbc\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:17:13-70
+		ADDED from [com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\user\.gradle\caches\transforms-3\d24782af7fb074d8c44d26a1696a016a\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:17:13-70

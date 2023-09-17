@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.mycompany.fincare2023.app-mergeDebugResources-11:/values-lv/values-lv.xml",
+            "outputFile": "com.mycompany.fincare2023.app-mergeDebugResources-6:/values-lv/values-lv.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Sarween\\.gradle\\caches\\transforms-3\\3db8ba9600d6ad6489c67a3ecb16c3b8\\transformed\\core-1.6.0\\res\\values-lv\\values-lv.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\78c3a85a463866a1df4677e521b3aae1\\transformed\\core-1.6.0\\res\\values-lv\\values-lv.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,7 +1,14 @@
+import 'dart:ffi';
+
+import 'package:fincare2023/databaseManager.dart';
+import 'package:mysql1/mysql1.dart';
+import 'package:fincare2023/database.dart';
+
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
+
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -17,6 +24,14 @@ class TransferWidget extends StatefulWidget {
 }
 
 class _TransferWidgetState extends State<TransferWidget> {
+  int amount = 2000;
+  final String description = 'Transfer Money';
+  final String category = 'Pocket Money';
+  final int childrenId = 1;
+
+  final DatabaseManager dbManager = DatabaseManager();
+  MySqlConnection? connection;
+
   late TransferModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
@@ -24,9 +39,20 @@ class _TransferWidgetState extends State<TransferWidget> {
   @override
   void initState() {
     super.initState();
+    initializeDatabaseConnection();
     _model = createModel(context, () => TransferModel());
 
     _model.textController ??= TextEditingController();
+  }
+
+  Future<void> initializeDatabaseConnection() async {
+    try {
+      connection = await dbManager.getConnection();
+      // Connection is now established and can be used for database operations
+    } catch (e) {
+      // Handle connection error
+      print('Error establishing database connection: $e');
+    }
   }
 
   @override
@@ -58,6 +84,7 @@ class _TransferWidgetState extends State<TransferWidget> {
             ),
             onPressed: () async {
               context.pop();
+              // await openDatabaseConnection();
             },
           ),
           title: Text(
@@ -313,6 +340,20 @@ class _TransferWidgetState extends State<TransferWidget> {
                                     20.0, 0.0, 0.0, 20.0),
                                 child: TextFormField(
                                   controller: _model.textController,
+                                  onChanged: (value) {
+                                    int? parsedAmount = int.tryParse(value);
+
+                                    if (parsedAmount != null) {
+                                      // Input is a valid integer, update the 'amount' variable
+                                      setState(() {
+                                        amount = parsedAmount;
+                                      });
+                                    } else {
+                                      // Input is not a valid integer, you can handle this case as needed
+                                      print('Invalid input: $value');
+                                    }
+                                    print('Amount: $amount');
+                                  },
                                   autofocus: true,
                                   obscureText: false,
                                   decoration: InputDecoration(
@@ -582,6 +623,19 @@ class _TransferWidgetState extends State<TransferWidget> {
                       alignment: AlignmentDirectional(0.02, 0.34),
                       child: FFButtonWidget(
                         onPressed: () async {
+                          if (connection != null) {
+                            try {
+                              await insertTransferMoneyData(connection!, amount,
+                                  description, category, childrenId);
+                              // Data was inserted successfully
+                              print('Data inserted successfully.');
+                            } catch (e) {
+                              // Handle database operation error
+                              print('Database operation failed: $e');
+                            }
+                          } else {
+                            print('Database connection not established.');
+                          }
                           context.pushNamed('Transfer_Verification');
                         },
                         text: 'Transfer',

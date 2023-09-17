@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.mycompany.fincare2023.app-mergeDebugResources-11:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.mycompany.fincare2023.app-mergeDebugResources-6:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Sarween\\Desktop\\Hackathon\\Huawei Fincare\\Fincare\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Lau Pei Tong\\Flutter\\Project\\Fincare\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
