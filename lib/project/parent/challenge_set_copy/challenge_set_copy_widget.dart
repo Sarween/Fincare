@@ -1,3 +1,6 @@
+import 'package:fincare2023/logic/models/mysql.dart';
+import 'package:mysql1/mysql1.dart';
+
 import '/flutter_flow/flutter_flow_count_controller.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_radio_button.dart';
@@ -22,7 +25,28 @@ class ChallengeSetCopyWidget extends StatefulWidget {
 class _ChallengeSetCopyWidgetState extends State<ChallengeSetCopyWidget> {
   late ChallengeSetCopyModel _model;
 
+  var db = new Mysql();
   final scaffoldKey = GlobalKey<ScaffoldState>();
+
+  Future<void> _insertChallenge() async {
+    String challengeName = _model.projectNameController?.text ?? '';
+    String description = _model.descriptionController?.text ?? '';
+    int stars = _model.countControllerValue ?? 0;
+    // String? difficulty = 'Easy'; // Default value
+    String difficulty = _model.radioButtonValueController?.value ?? '';
+    double days = _model.sliderValue ?? 0.0;
+    int daysAsInt = days.toInt();
+    // int days = 5;
+    String status = "ongoing";
+
+    db.getConnection().then((conn) async {
+      String sql =
+          'insert into challenge (challengeName, description, stars, difficulty, days, Status) values (?, ?, ?, ?, ?, ?)';
+      var result = await conn.query(sql,
+          [challengeName, description, stars, difficulty, daysAsInt, status]);
+      print('Inserted row id=${result.insertId}');
+    });
+  }
 
   @override
   void initState() {
@@ -406,7 +430,9 @@ class _ChallengeSetCopyWidgetState extends State<ChallengeSetCopyWidget> {
                                     child: FlutterFlowRadioButton(
                                       options:
                                           ['Easy', 'Medium', 'Hard'].toList(),
-                                      onChanged: (val) => setState(() {}),
+                                      onChanged: (val) {
+                                        setState(() {});
+                                      },
                                       controller:
                                           _model.radioButtonValueController ??=
                                               FormFieldController<String>(null),
@@ -475,6 +501,7 @@ class _ChallengeSetCopyWidgetState extends State<ChallengeSetCopyWidget> {
                                           0.0, 0.0, 4.0, 0.0),
                                       child: FFButtonWidget(
                                         onPressed: () async {
+                                          _insertChallenge();
                                           context
                                               .pushNamed('Challenge_Current');
                                         },
