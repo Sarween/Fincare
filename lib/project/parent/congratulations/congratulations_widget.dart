@@ -72,81 +72,84 @@ class _CongratulationsWidgetState extends State<CongratulationsWidget> {
         ),
         body: SafeArea(
           top: true,
-          child: Column(
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(0.0, 80.0, 0.0, 30.0),
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(80.0),
-                  child: Image.asset(
-                    'assets/images/DYLAN_206355.jpg',
-                    width: 150.0,
-                    height: 150.0,
-                    fit: BoxFit.cover,
+          child: SingleChildScrollView(
+            child: Column(
+              mainAxisSize: MainAxisSize.max,
+              children: [
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 80.0, 0.0, 30.0),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(80.0),
+                    child: Image.asset(
+                      'assets/images/DYLAN_206355.jpg',
+                      width: 150.0,
+                      height: 150.0,
+                      fit: BoxFit.cover,
+                    ),
                   ),
                 ),
-              ),
-              Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 30.0),
-                child: Row(
-                  mainAxisSize: MainAxisSize.max,
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(
-                      'Congratulations!',
-                      style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Roboto',
-                            color: Colors.white,
-                            fontSize: 25.0,
-                            fontWeight: FontWeight.bold,
-                          ),
-                    ),
-                  ],
-                ),
-              ),
-              Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 150.0),
-                child: Row(
-                  mainAxisSize: MainAxisSize.max,
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(
-                      'Tofu has been added\n to your family circle',
-                      style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Roboto',
-                            color: Colors.white,
-                            fontSize: 18.0,
-                          ),
-                    ),
-                  ],
-                ),
-              ),
-              FFButtonWidget(
-                onPressed: () async {
-                  context.pushNamed('Home');
-                },
-                text: 'Done',
-                options: FFButtonOptions(
-                  width: 250.0,
-                  height: 40.0,
-                  padding: EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 0.0),
-                  iconPadding:
-                      EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                  color: Color(0xFFCEB0F0),
-                  textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                        fontFamily: 'Roboto',
-                        color: Colors.white,
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 30.0),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        'Congratulations!',
+                        style: FlutterFlowTheme.of(context).bodyMedium.override(
+                              fontFamily: 'Roboto',
+                              color: Colors.white,
+                              fontSize: 25.0,
+                              fontWeight: FontWeight.bold,
+                            ),
                       ),
-                  elevation: 3.0,
-                  borderSide: BorderSide(
-                    color: Colors.transparent,
-                    width: 1.0,
+                    ],
                   ),
-                  borderRadius: BorderRadius.circular(20.0),
                 ),
-              ),
-            ],
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 150.0),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        'Tofu has been added\n to your family circle',
+                        style: FlutterFlowTheme.of(context).bodyMedium.override(
+                              fontFamily: 'Roboto',
+                              color: Colors.white,
+                              fontSize: 18.0,
+                            ),
+                      ),
+                    ],
+                  ),
+                ),
+                FFButtonWidget(
+                  onPressed: () async {
+                    context.pushNamed('Home');
+                  },
+                  text: 'Done',
+                  options: FFButtonOptions(
+                    width: 250.0,
+                    height: 40.0,
+                    padding:
+                        EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 0.0),
+                    iconPadding:
+                        EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                    color: Color(0xFFCEB0F0),
+                    textStyle: FlutterFlowTheme.of(context).titleSmall.override(
+                          fontFamily: 'Roboto',
+                          color: Colors.white,
+                        ),
+                    elevation: 3.0,
+                    borderSide: BorderSide(
+                      color: Colors.transparent,
+                      width: 1.0,
+                    ),
+                    borderRadius: BorderRadius.circular(20.0),
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
       ),
