@@ -73,96 +73,142 @@ class _ReloadVerificationWidgetState extends State<ReloadVerificationWidget> {
         ),
         body: SafeArea(
           top: true,
-          child: Column(
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(0.0, 120.0, 0.0, 0.0),
-                child: Row(
-                  mainAxisSize: MainAxisSize.max,
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Padding(
-                      padding:
-                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 50.0, 20.0),
-                      child: Text(
-                        'OTP Verification   ',
-                        style: FlutterFlowTheme.of(context).bodyLarge.override(
-                              fontFamily: 'Roboto',
-                              color: Colors.white,
-                              fontSize: 30.0,
-                              fontWeight: FontWeight.bold,
-                            ),
+          child: SingleChildScrollView(
+            child: Column(
+              mainAxisSize: MainAxisSize.max,
+              children: [
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 120.0, 0.0, 0.0),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Padding(
+                        padding: EdgeInsetsDirectional.fromSTEB(
+                            0.0, 0.0, 50.0, 20.0),
+                        child: Text(
+                          'OTP Verification   ',
+                          style:
+                              FlutterFlowTheme.of(context).bodyLarge.override(
+                                    fontFamily: 'Roboto',
+                                    color: Colors.white,
+                                    fontSize: 30.0,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
-              ),
-              Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 20.0),
-                child: Row(
-                  mainAxisSize: MainAxisSize.max,
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Padding(
-                      padding:
-                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 110.0, 0.0),
-                      child: Text(
-                        'We have sent 6-digit code to \n+6017******8',
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 20.0),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Padding(
+                        padding: EdgeInsetsDirectional.fromSTEB(
+                            0.0, 0.0, 110.0, 0.0),
+                        child: Text(
+                          'We have sent 6-digit code to \n+6017******8',
+                          style:
+                              FlutterFlowTheme.of(context).bodyMedium.override(
+                                    fontFamily: 'Roboto',
+                                    color: Colors.white,
+                                  ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 20.0),
+                  child: PinCodeTextField(
+                    autoDisposeControllers: false,
+                    appContext: context,
+                    length: 6,
+                    textStyle: FlutterFlowTheme.of(context).bodyLarge,
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    enableActiveFill: false,
+                    autoFocus: true,
+                    enablePinAutofill: false,
+                    errorTextSpace: 16.0,
+                    showCursor: true,
+                    cursorColor: FlutterFlowTheme.of(context).primary,
+                    obscureText: false,
+                    hintCharacter: '●',
+                    keyboardType: TextInputType.number,
+                    pinTheme: PinTheme(
+                      fieldHeight: 44.0,
+                      fieldWidth: 44.0,
+                      borderWidth: 2.0,
+                      borderRadius: BorderRadius.circular(12.0),
+                      shape: PinCodeFieldShape.box,
+                      activeColor: FlutterFlowTheme.of(context).primaryText,
+                      inactiveColor: FlutterFlowTheme.of(context).alternate,
+                      selectedColor: FlutterFlowTheme.of(context).primary,
+                      activeFillColor: FlutterFlowTheme.of(context).primaryText,
+                      inactiveFillColor: FlutterFlowTheme.of(context).alternate,
+                      selectedFillColor: FlutterFlowTheme.of(context).primary,
+                    ),
+                    controller: _model.pinCodeController,
+                    onChanged: (_) {},
+                    autovalidateMode: AutovalidateMode.onUserInteraction,
+                    validator:
+                        _model.pinCodeControllerValidator.asValidator(context),
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 50.0),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        'The OTP will expire after 2 minutes',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Roboto',
                               color: Colors.white,
                             ),
                       ),
-                    ),
-                  ],
-                ),
-              ),
-              Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 20.0),
-                child: PinCodeTextField(
-                  autoDisposeControllers: false,
-                  appContext: context,
-                  length: 6,
-                  textStyle: FlutterFlowTheme.of(context).bodyLarge,
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  enableActiveFill: false,
-                  autoFocus: true,
-                  enablePinAutofill: false,
-                  errorTextSpace: 16.0,
-                  showCursor: true,
-                  cursorColor: FlutterFlowTheme.of(context).primary,
-                  obscureText: false,
-                  hintCharacter: '●',
-                  keyboardType: TextInputType.number,
-                  pinTheme: PinTheme(
-                    fieldHeight: 44.0,
-                    fieldWidth: 44.0,
-                    borderWidth: 2.0,
-                    borderRadius: BorderRadius.circular(12.0),
-                    shape: PinCodeFieldShape.box,
-                    activeColor: FlutterFlowTheme.of(context).primaryText,
-                    inactiveColor: FlutterFlowTheme.of(context).alternate,
-                    selectedColor: FlutterFlowTheme.of(context).primary,
-                    activeFillColor: FlutterFlowTheme.of(context).primaryText,
-                    inactiveFillColor: FlutterFlowTheme.of(context).alternate,
-                    selectedFillColor: FlutterFlowTheme.of(context).primary,
+                    ],
                   ),
-                  controller: _model.pinCodeController,
-                  onChanged: (_) {},
-                  autovalidateMode: AutovalidateMode.onUserInteraction,
-                  validator:
-                      _model.pinCodeControllerValidator.asValidator(context),
                 ),
-              ),
-              Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 50.0),
-                child: Row(
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 50.0),
+                  child: FFButtonWidget(
+                    onPressed: () async {
+                      context.pushNamed('Reload_Complete');
+                    },
+                    text: 'Verify',
+                    options: FFButtonOptions(
+                      width: 250.0,
+                      height: 40.0,
+                      padding:
+                          EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 0.0),
+                      iconPadding:
+                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                      color: Color(0xFFCEB0F0),
+                      textStyle:
+                          FlutterFlowTheme.of(context).titleSmall.override(
+                                fontFamily: 'Roboto',
+                                color: Colors.white,
+                              ),
+                      elevation: 3.0,
+                      borderSide: BorderSide(
+                        color: Colors.transparent,
+                        width: 1.0,
+                      ),
+                      borderRadius: BorderRadius.circular(20.0),
+                    ),
+                  ),
+                ),
+                Row(
                   mainAxisSize: MainAxisSize.max,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      'The OTP will expire after 2 minutes',
+                      'Resend the code again',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Roboto',
                             color: Colors.white,
@@ -170,49 +216,8 @@ class _ReloadVerificationWidgetState extends State<ReloadVerificationWidget> {
                     ),
                   ],
                 ),
-              ),
-              Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 50.0),
-                child: FFButtonWidget(
-                  onPressed: () async {
-                    context.pushNamed('Reload_Complete');
-                  },
-                  text: 'Verify',
-                  options: FFButtonOptions(
-                    width: 250.0,
-                    height: 40.0,
-                    padding:
-                        EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 0.0),
-                    iconPadding:
-                        EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                    color: Color(0xFFCEB0F0),
-                    textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                          fontFamily: 'Roboto',
-                          color: Colors.white,
-                        ),
-                    elevation: 3.0,
-                    borderSide: BorderSide(
-                      color: Colors.transparent,
-                      width: 1.0,
-                    ),
-                    borderRadius: BorderRadius.circular(20.0),
-                  ),
-                ),
-              ),
-              Row(
-                mainAxisSize: MainAxisSize.max,
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Text(
-                    'Resend the code again',
-                    style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Roboto',
-                          color: Colors.white,
-                        ),
-                  ),
-                ],
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),

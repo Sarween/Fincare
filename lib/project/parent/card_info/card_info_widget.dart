@@ -63,146 +63,152 @@ class _CardInfoWidgetState extends State<CardInfoWidget> {
         ),
         body: SafeArea(
           top: true,
-          child: Column(
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              Column(
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  Padding(
-                    padding:
-                        EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 30.0),
-                    child: ClipRRect(
-                      borderRadius: BorderRadius.circular(80.0),
-                      child: Image.asset(
-                        'assets/images/DYLAN_206355.jpg',
-                        width: 150.0,
-                        height: 150.0,
-                        fit: BoxFit.cover,
-                      ),
-                    ),
-                  ),
-                  Padding(
-                    padding:
-                        EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 20.0),
-                    child: Row(
-                      mainAxisSize: MainAxisSize.max,
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Text(
-                          'You have registered',
-                          style:
-                              FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Roboto',
-                                    color: Colors.white,
-                                    fontSize: 18.0,
-                                  ),
-                        ),
-                      ],
-                    ),
-                  ),
-                  Padding(
-                    padding:
-                        EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 20.0),
-                    child: Row(
-                      mainAxisSize: MainAxisSize.max,
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Text(
-                          'Tofu',
-                          style:
-                              FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Roboto',
-                                    color: Colors.white,
-                                    fontSize: 25.0,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                        ),
-                      ],
-                    ),
-                  ),
-                  Padding(
-                    padding:
-                        EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 20.0),
-                    child: ClipRRect(
-                      borderRadius: BorderRadius.circular(8.0),
-                      child: Image.asset(
-                        'assets/images/Group_33602.png',
-                        width: 350.0,
-                        height: 250.0,
-                        fit: BoxFit.cover,
-                      ),
-                    ),
-                  ),
-                  Padding(
-                    padding:
-                        EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 30.0),
-                    child: Row(
-                      mainAxisSize: MainAxisSize.max,
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Theme(
-                          data: ThemeData(
-                            checkboxTheme: CheckboxThemeData(
-                              visualDensity: VisualDensity.compact,
-                              materialTapTargetSize:
-                                  MaterialTapTargetSize.shrinkWrap,
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(4.0),
-                              ),
-                            ),
-                            unselectedWidgetColor:
-                                FlutterFlowTheme.of(context).secondaryText,
-                          ),
-                          child: Checkbox(
-                            value: _model.checkboxValue ??= false,
-                            onChanged: (newValue) async {
-                              setState(() => _model.checkboxValue = newValue!);
-                            },
-                            activeColor: Color(0xFFCEB0F0),
-                            checkColor: FlutterFlowTheme.of(context).info,
-                          ),
-                        ),
-                        Text(
-                          'I agree with the Terms and Conditions',
-                          style:
-                              FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Roboto',
-                                    color: Colors.white,
-                                  ),
-                        ),
-                      ],
-                    ),
-                  ),
-                  FFButtonWidget(
-                    onPressed: () async {
-                      context.pushNamed('Congratulations');
-                    },
-                    text: 'Confirm',
-                    options: FFButtonOptions(
-                      width: 250.0,
-                      height: 40.0,
+          child: SingleChildScrollView(
+            child: Column(
+              mainAxisSize: MainAxisSize.max,
+              children: [
+                Column(
+                  mainAxisSize: MainAxisSize.max,
+                  children: [
+                    Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 0.0),
-                      iconPadding:
-                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                      color: Color(0xFFCEB0F0),
-                      textStyle:
-                          FlutterFlowTheme.of(context).titleSmall.override(
-                                fontFamily: 'Roboto',
-                                color: Colors.white,
-                              ),
-                      elevation: 3.0,
-                      borderSide: BorderSide(
-                        color: Colors.transparent,
-                        width: 1.0,
+                          EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 30.0),
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(80.0),
+                        child: Image.asset(
+                          'assets/images/DYLAN_206355.jpg',
+                          width: 150.0,
+                          height: 150.0,
+                          fit: BoxFit.cover,
+                        ),
                       ),
-                      borderRadius: BorderRadius.circular(20.0),
                     ),
-                  ),
-                ],
-              ),
-            ],
+                    Padding(
+                      padding:
+                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 20.0),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            'You have registered',
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Roboto',
+                                  color: Colors.white,
+                                  fontSize: 18.0,
+                                ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Padding(
+                      padding:
+                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 20.0),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            'Tofu',
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Roboto',
+                                  color: Colors.white,
+                                  fontSize: 25.0,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Padding(
+                      padding:
+                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 20.0),
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(8.0),
+                        child: Image.asset(
+                          'assets/images/Group_33602.png',
+                          width: 350.0,
+                          height: 250.0,
+                          fit: BoxFit.cover,
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding:
+                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 30.0),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Theme(
+                            data: ThemeData(
+                              checkboxTheme: CheckboxThemeData(
+                                visualDensity: VisualDensity.compact,
+                                materialTapTargetSize:
+                                    MaterialTapTargetSize.shrinkWrap,
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(4.0),
+                                ),
+                              ),
+                              unselectedWidgetColor:
+                                  FlutterFlowTheme.of(context).secondaryText,
+                            ),
+                            child: Checkbox(
+                              value: _model.checkboxValue ??= false,
+                              onChanged: (newValue) async {
+                                setState(
+                                    () => _model.checkboxValue = newValue!);
+                              },
+                              activeColor: Color(0xFFCEB0F0),
+                              checkColor: FlutterFlowTheme.of(context).info,
+                            ),
+                          ),
+                          Text(
+                            'I agree with the Terms and Conditions',
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Roboto',
+                                  color: Colors.white,
+                                ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    FFButtonWidget(
+                      onPressed: () async {
+                        context.pushNamed('Congratulations');
+                      },
+                      text: 'Confirm',
+                      options: FFButtonOptions(
+                        width: 250.0,
+                        height: 40.0,
+                        padding: EdgeInsetsDirectional.fromSTEB(
+                            24.0, 0.0, 24.0, 0.0),
+                        iconPadding:
+                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                        color: Color(0xFFCEB0F0),
+                        textStyle:
+                            FlutterFlowTheme.of(context).titleSmall.override(
+                                  fontFamily: 'Roboto',
+                                  color: Colors.white,
+                                ),
+                        elevation: 3.0,
+                        borderSide: BorderSide(
+                          color: Colors.transparent,
+                          width: 1.0,
+                        ),
+                        borderRadius: BorderRadius.circular(20.0),
+                      ),
+                    ),
+                  ],
+                ),
+              ],
+            ),
           ),
         ),
       ),
