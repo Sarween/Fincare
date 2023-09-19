@@ -38,23 +38,104 @@ Future<MySqlConnection> openDatabaseConnection() async {
   }
 }
 
+Future<List<Map<String, dynamic>>> getTransactionData(
+    MySqlConnection connection) async {
+  try {
+    // Execute the SQL query to get the latest transaction
+    final Results results = await connection.query(
+      'SELECT * FROM transaction ORDER BY datetime DESC LIMIT 10',
+    );
+
+    List<Map<String, dynamic>> transactionList = [];
+
+    // Iterate through the results and convert each row into a Map
+    for (var row in results) {
+      Map<String, dynamic> transactionData = {
+        'transaction_id': row[0], // Assuming the first column is 'id'
+        'amount': row[1], // Replace with the correct column index
+        'description': row[2], // Replace with the correct column index
+        'category': row[3], // Replace with the correct column index
+        'recipient_id': row[4], // Replace with the correct column index
+        'datetime': row[5], // Replace with the correct column index
+        // Add more fields as needed
+      };
+      transactionList.add(transactionData);
+    }
+
+    // Debug print the transactionList
+    debugPrint(transactionList.toString());
+
+    // Return the list of transactions
+    return transactionList;
+  } catch (error) {
+    print('Error fetching latest transaction data: $error');
+    throw error;
+  }
+}
+
+Future<Map<String, dynamic>> getLatestTransactionData(
+  MySqlConnection connection,
+) async {
+  try {
+    // Execute the SQL query to get the latest transaction
+    final Results results = await connection.query(
+      'SELECT * FROM transaction ORDER BY datetime DESC LIMIT 1',
+    );
+
+    if (results.isNotEmpty) {
+      var row = results.first; // Get the first row (latest transaction)
+
+      Map<String, dynamic> transactionData = {
+        'transaction_id': row[0], // Assuming the first column is 'id'
+        'amount': row[1], // Replace with the correct column index
+        'description': row[2], // Replace with the correct column index
+        'category': row[3], // Replace with the correct column index
+        'recipient_id': row[4], // Replace with the correct column index
+        'datetime': row[5], // Replace with the correct column index
+        // Add more fields as needed
+      };
+
+      // Debug print the transactionData
+      debugPrint(transactionData['description'].toString());
+
+      // Return the transaction data as a single object
+      return transactionData;
+    } else {
+      // Handle the case when no transactions are found
+      return {}; // You can return an empty map or handle it differently
+    }
+  } catch (error) {
+    print('Error fetching latest transaction data: $error');
+    throw error;
+  }
+}
+
 Future<void> insertTransferMoneyData(
   MySqlConnection connection,
   int amount,
   String description,
   String category,
-  int childrenId,
+  int recipient_id,
 ) async {
   try {
     final transaction_id = generateTransactionId();
+    final datetime = DateTime.now(); // Get the current DateTime
 
     // Define your SQL query for inserting data
     final query =
-        'INSERT INTO transaction (transaction_id, amount, description, category, recipient_id) VALUES (?, ?, ?, ?, ?)';
+        'INSERT INTO transaction (transaction_id, amount, description, category, recipient_id, datetime) VALUES (?, ?, ?, ?, ?, ?)';
+
+    final formattedDateTime = datetime.toLocal().toString();
 
     // Execute the query with the provided data
-    final results = await connection.query(
-        query, [transaction_id, amount, description, category, childrenId]);
+    final results = await connection.query(query, [
+      transaction_id,
+      amount,
+      description,
+      category,
+      recipient_id,
+      formattedDateTime
+    ]);
 
     // Check the results or handle any errors
     if (results.affectedRows! > 0) {

@@ -11,6 +11,10 @@ import 'package:provider/provider.dart';
 import 'home_model.dart';
 export 'home_model.dart';
 
+import 'package:fincare2023/databaseManager.dart';
+import 'package:mysql1/mysql1.dart';
+import 'package:fincare2023/database.dart';
+
 class HomeWidget extends StatefulWidget {
   const HomeWidget({Key? key}) : super(key: key);
 
@@ -22,6 +26,18 @@ class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
   late HomeModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
+  Map<String, dynamic> latestTransaction = {
+    'transaction_id': 1, // Assuming the first column is 'id'
+    'amount': 200, // Replace with the correct column index
+    'description': 'Transfer Money', // Replace with the correct column index
+    'category': 'To Sarween', // Replace with the correct column index
+    'recipient_id': 1, // Replace with the correct column index
+    'datetime': null, // Replace with the correct column index
+    // Add more fields as needed
+  };
+
+  final DatabaseManager dbManager = DatabaseManager();
+  MySqlConnection? connection;
 
   final animationsMap = {
     'rowOnPageLoadAnimation': AnimationInfo(
@@ -81,6 +97,7 @@ class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
   @override
   void initState() {
     super.initState();
+    initializeDatabaseConnection();
     _model = createModel(context, () => HomeModel());
 
     setupAnimations(
@@ -89,6 +106,17 @@ class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
           !anim.applyInitialState),
       this,
     );
+  }
+
+  Future<void> initializeDatabaseConnection() async {
+    try {
+      connection = await dbManager.getConnection();
+      latestTransaction = await getLatestTransactionData(connection!);
+      // Connection is now established and can be used for database operations
+    } catch (e) {
+      // Handle connection error
+      print('Error establishing database connection: $e');
+    }
   }
 
   @override
@@ -101,7 +129,6 @@ class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
@@ -609,7 +636,8 @@ class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            'Reload Payment',
+                                            latestTransaction['description'] ??
+                                                'Reload Payment',
                                             style: FlutterFlowTheme.of(context)
                                                 .titleMedium
                                                 .override(
@@ -624,7 +652,12 @@ class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 4.0, 0.0, 0.0),
                                             child: Text(
-                                              'Via Visa Card',
+                                              latestTransaction[
+                                                          'description'] ==
+                                                      'Transfer Money'
+                                                  ? latestTransaction[
+                                                      'category']
+                                                  : 'Transfer to Sarween',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium,
@@ -645,7 +678,7 @@ class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
                                           CrossAxisAlignment.end,
                                       children: [
                                         Text(
-                                          '+RM 100',
+                                          '+RM${latestTransaction['amount'].toString() ?? '300'}',
                                           textAlign: TextAlign.end,
                                           style: FlutterFlowTheme.of(context)
                                               .titleSmall
@@ -659,7 +692,9 @@ class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 4.0, 0.0, 0.0),
                                           child: Text(
-                                            '8 Sep, 19:13',
+                                            DateFormat('d MMM, HH:mm').format(
+                                                latestTransaction['datetime'] ??
+                                                    DateTime.now()),
                                             textAlign: TextAlign.end,
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
