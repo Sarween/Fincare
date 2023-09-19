@@ -1,3 +1,7 @@
+import 'package:fincare2023/databaseManager.dart';
+import 'package:mysql1/mysql1.dart';
+import 'package:fincare2023/database.dart';
+import 'dart:async';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
@@ -16,16 +20,38 @@ class ArticlePageWidget extends StatefulWidget {
 }
 
 class _ArticlePageWidgetState extends State<ArticlePageWidget> {
+  int Article_Id = 1;
+  final String Article_Name = '';
+  final String Article_Author = '';
+  final String Article_Detail = '';
+
+  final DatabaseManager dbManager = DatabaseManager();
+  MySqlConnection? connection;
+
   late ArticlePageModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
+//selectArticleData(connection!,Article_Id,Article_Name,Article_Author,Article_Detail);
+
 
   @override
   void initState() {
     super.initState();
+     initializeDatabaseConnection();
     _model = createModel(context, () => ArticlePageModel());
 
     _model.textController ??= TextEditingController(text: 'Search');
+
+  }
+
+  Future<void> initializeDatabaseConnection() async {
+    try {
+      connection = await dbManager.getConnection();
+      // Connection is now established and can be used for database operations
+    } catch (e) {
+      // Handle connection error
+      print('Error establishing database connection: $e');
+    }
   }
 
   @override
@@ -37,6 +63,7 @@ class _ArticlePageWidgetState extends State<ArticlePageWidget> {
 
   @override
   Widget build(BuildContext context) {
+    //selectArticleData(connection!,Article_Id,Article_Name,Article_Author,Article_Detail);
     return GestureDetector(
       onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(

@@ -68,3 +68,27 @@ Future<void> insertTransferMoneyData(
     // Handle the error
   }
 }
+
+void selectArticleData(
+  MySqlConnection connection,
+  int Article_Id,
+  String Article_Name,
+  String Article_Author,
+  String Article_Detail
+) async {
+  try {
+
+    var results = await connection.query(
+      'select Article_Name, Article_Author, Article_Detail from articles where Article_Id = ?', [Article_Id]);
+    // for (var row in results) {
+    //   print('Article_Name: ${row[0]}, Article_Author: ${row[1]} Article_Detail: ${row[2]}');}
+    print(results);
+
+  } catch (e) {
+    print('Error: $e');
+    // Handle the error
+
+  }
+  }
+
+
